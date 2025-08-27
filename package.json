@@ -1,6 +1,6 @@
 {
   "name": "@fullcalendar/react",
-  "version": "6.1.19",
+  "version": "6.1.19-a11y.1",
   "title": "FullCalendar React Component",
   "description": "The official React Component for FullCalendar",
   "keywords": [
@@ -12,12 +12,13 @@
   ],
   "homepage": "https://fullcalendar.io/docs/react",
   "license": "MIT",
+  "private": "true",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fullcalendar/fullcalendar-react.git"
+    "url": "https://github.com/TeamDiverst/fullcalendar-react.git"
   },
   "peerDependencies": {
-    "@fullcalendar/core": "~6.1.19",
+    "@fullcalendar/core": "~6.1.19-a11y.1",
     "react": "^16.7.0 || ^17 || ^18 || ^19",
     "react-dom": "^16.7.0 || ^17 || ^18 || ^19"
   },
