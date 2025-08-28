@@ -4,11 +4,11 @@ import {
   CalendarOptions,
   CalendarApi,
   Calendar,
-} from '@fullcalendar/core'
+} from '@teamdiverst/fullcalendar-core'
 import {
   CustomRendering,
   CustomRenderingStore,
-} from '@fullcalendar/core/internal'
+} from '@teamdiverst/fullcalendar-core/internal'
 
 const reactMajorVersion = parseInt(String(React.version).split('.')[0])
 const syncRenderingByDefault = reactMajorVersion < 18
