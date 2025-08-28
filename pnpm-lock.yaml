@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@teamdiverst/fullcalendar-core':
+        specifier: ~6.1.19-a11y.1
+        version: 6.1.19-a11y.1
     devDependencies:
       '@babel/core':
         specifier: ^7.0.0
@@ -756,6 +760,9 @@ packages:
 
   '@socket.io/component-emitter@3.1.2':
     resolution: {integrity: sha512-9BCxFwvbGg/RsZK9tjXd8s4UcwR0MWeFQ1XEKIQVVvAGJyINdrqKMcTRyLoK8Rse1GjzLV9cwjWV1olXRWEXVA==}
+
+  '@teamdiverst/fullcalendar-core@6.1.19-a11y.1':
+    resolution: {integrity: sha512-XVANP97uhafX0Nv0egh4LTRbEZs4ldcF34aGsJAfaEWYl7ahF9ioXiJtKQRH4l0PMDY1q9Y/EVayKUO6SOHNeQ==, tarball: https://npm.pkg.github.com/download/@teamdiverst/fullcalendar-core/6.1.19-a11y.1/24b4368287ed6667e1cd6292f4fcb277b6c081cb}
 
   '@testing-library/dom@8.20.1':
     resolution: {integrity: sha512-/DiOQ5xBxgdYRC8LNk7U+RWat0S3qRLeIw3ZIkMQ9kkVlRmwD/Eg8k8CqIpD6GW7u20JIUOfMKbxtiLutpjQ4g==}
@@ -3488,6 +3495,10 @@ snapshots:
       rollup: 2.79.2
 
   '@socket.io/component-emitter@3.1.2': {}
+
+  '@teamdiverst/fullcalendar-core@6.1.19-a11y.1':
+    dependencies:
+      preact: 10.12.1
 
   '@testing-library/dom@8.20.1':
     dependencies:

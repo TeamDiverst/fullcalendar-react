@@ -1,5 +1,5 @@
 {
-  "name": "@fullcalendar/react",
+  "name": "@teamdiverst/fullcalendar-react",
   "version": "6.1.19-a11y.1",
   "title": "FullCalendar React Component",
   "description": "The official React Component for FullCalendar",
@@ -18,7 +18,7 @@
     "url": "https://github.com/TeamDiverst/fullcalendar-react.git"
   },
   "peerDependencies": {
-    "@fullcalendar/core": "~6.1.19-a11y.1",
+    "@teamdiverst/fullcalendar-core": "~6.1.19-a11y.1",
     "react": "^16.7.0 || ^17 || ^18 || ^19",
     "react-dom": "^16.7.0 || ^17 || ^18 || ^19"
   },
